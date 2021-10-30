@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/75c964d97d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/J.png">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: rgb(58 202 243);
+            color:rgb(0,18,68);
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            font-size: x-large;
+        }
+        header h1 {
+            margin: 0;
+            padding: 0.5em 0.5em;
+        }
+        #navigation {
+            list-style: none;
+            display: flex;
+            background-color: rgb(77, 77, 77);
+            margin: 0;
+            padding: 0.5em 1em 0.5em 2em ;
+            font-family: sans-serif;
+            font-size: large;
+        }
+        #navigation a {
+            text-decoration: none;
+            margin: 0 1em;
+            color: white;
+        }
+        #showcase {
+            background-image: url("/images/bg.jpg");
+            background-size: cover;
+            background-position: center center;
+            min-height: 300px;
+            text-align: center;
+        }
+        #about, #resume {
+            font-family: sans-serif;
+            background-color: rgb(77, 77, 77);
+            margin: auto;
+            color:white;
+            padding: 1em 1em 1em 2em;
+
+        }
+        #showcase h2 {
+            margin: auto;
+            padding: 0.5em 2em ;
+            color: black;
+            font-size: 3rem;
+            font-family: monospace;
+        }
+        .aboutContainer {
+            display: flex;
+            background-color: rgb(216, 216, 216);
+        }
+        #main {
+            width: 60%;
+            padding: 0.5em 2em ;
+            font-size: 1.5rem;
+
+        }
+        aside {
+            width: 25%;
+        }
+        .me {
+            width: 100%;
+            max-width: 400px;
+            margin: 1em;
+            border: solid;
+            border-radius: 0.5em;
+        }
+        .resumeContainer iframe {
+            width: 99%;
+            min-height: 900px;
+        }
+        #main-footer {
+            background-color: rgb(77, 77, 77);
+            color: white;
+            text-align: center;
+            padding: 2.5em 2em 0.5em 2em;
+        }
+        .contact{
+            font-size: x-large;
+        }
+        .contact a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .social-media {
+            margin: 2em 0;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: white;
+            font-size: 2.5rem;
+            margin: 0 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Eslam's Portfolio</h1>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Résumé</a></li>
+            <li><a href="#main-footer">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div id="showcase">
+        <div class="container">
+            <h2>Application Developer | Trainer at BambooGeeks</h2>
+        </div>
+    </div>
+    <h2 id="about">About</h2>
+    <div class="aboutContainer">
+        <div id="main">
+            <p>Ever since I was a little kid, software development has been my passion. I still remember sitting in front of the "Crossfire" Game. As I went through the BASICS tutorial, it was almost magic, being able to get the computer to do whatever I wanted, just by typing in these funny little symbols, limited only by my own imagination and ingenuity. Throughout the first years of college, I latched on to any ideas for projects I could get, moving from " Hello World" all the way to a simple first chat application, with dozens of projects in between. I learned Java, C++, tearing through any online tutorials related to software development. I was insatiable.</p>
+            <p>This passion carried me through my education at Akhbar al-Yom academy. Here there were more resources available to me than I ever could have imagined as a kid. I studied new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination that drove me as a kid. And it was here that I learned truly how much there was yet to learn.
+
+                So, now, in industry, this passion remains with me. There's certainly yet more to learn, yet more problems to solve, and yet more to build. And for this, I am very grateful.
+                
+                Earned a Bachelor’s degree in computer science in 2018, In particular, focused on topics like Android development, Chatbots, IBM Watson, and Google Cloud Platform. After graduation, worked hard to attain my role as a Software Engineer for 3 years. Then I spent a full 2 years working as a Chatbot Front-end Developer at Art Dimension company.
+                
+                In 2016, Co-founded the Google Developers Group on 6 October and was able to grow the community to over 4000 members over 3 years and represented GDG October in many events in California and Bangalore in India like GDD India and Google I/O.
+                
+                had a lot of significant professional experiences as a Public Speaker. transformed hundreds of developers' lives by teaching them how to work with Android, Google Assistant, GCP, Flutter, UI UX, Web Development, and Gsuite in only 4 years by performing + 220 sessions across Egypt and outside Egypt.
+                
+                As an educator, I feel genuine happiness when I help others and see them succeed in their careers. The feeling of proudness when people tell you they managed to do this and that thanks to you not only recharges your batteries and makes you want to do it again, it also pushes you to reach higher levels so that you can help even more people more efficiently.</p>
+        </div>
+        <aside><img src="images/profileimage.jpeg" alt="Eslam's picture" class="me"></aside>
+    </div>
+    <h2 id="resume">Resume</h2>
+    <div class="resumeContainer">
+        <iframe src="https://drive.google.com/file/d/1KwriW0RSoxchPNCDO2IakIr85z3R-fKp/view?usp=sharing"></iframe>
+    </div>
+
+    <footer id="main-footer">
+        <div class="contact">
+            <p>I hope To hear from you!</p>
+            <a href="https://www.eslammedhat.me/home">ieslammedhat@gmail.com</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-github"></i>https://github.com/madahetooo</a>
+            <a href="https://www.facebook.com/madahetooo"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/madahetooo/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="copyrights">
+            <p>copyright &copy; 2021 Eslam's Portfolio</p>
+        </div>
+    </footer>
+</body>
+
+</html>
